@@ -1,0 +1,117 @@
+/* .hero-content */
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Homeimg/hero.jpeg");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  padding: 150px 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  object-fit: cover;
+  box-shadow: 1px 2px 10px 10px rgb(243, 243, 243);
+}
+
+#hero .hero-content {
+  position: relative;
+  /* z-index: 10; */
+}
+
+/*h1 {
+  margin-bottom: 10px;
+  font-family: "Prosto One", sans-serif;
+  box-shadow:1px 2px 10px rgb(0, 0, 0);
+}
+
+h2{
+  font-family: "prosto one", cursive;
+  color: rgb(231, 231, 231);
+    font-size: 40px;
+  }*/
+
+#hero a {
+  text-decoration: none;
+  background: black;
+  font-size: 15px;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+
+
+
+/* cardbody */
+
+.employus{
+  max-width: 80%;
+  margin:80px auto;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-gap: 50px;
+}
+
+
+.fact {
+  text-align: center;
+  background-color: white;
+
+}
+
+.fulllogo{
+  margin: 30px 90px;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  /* border-radius: 10px; */
+  /* border: 2px solid black; */
+  /* box-sizing: border-box; */
+
+}
+article{
+  text-align: center;
+  font-size: 20px;
+}
+/* styling for how many columns we want to have*/
+.grid2{
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+/*styling for the image inside the grid*/
+.Bioimage{
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+/*styling for the information inside the card*/
+.cardinfo{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 10px;
+  line-height: 1.5em;
+}
+/* styling for the outside of the card inside the grid*/
+.Biocard{
+  border: 5px  solid rgb(112, 190, 216);
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 20px;
+  background-color: lightblue;
+  /*box-shadow:1px 2px 10px  rgb(154, 214, 235);*/
+  
+}
+
+.odm{
+  text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ box-shadow:1px 2px 10px 10px rgb(149, 212, 233);
+ background-color: white;
+}
