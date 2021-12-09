@@ -1,0 +1,59 @@
+/*child care page*/
+  
+.number {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:2em;
+    padding:20px;
+   }
+   
+   .five{
+   font-size: 24px;
+   text-align: center;
+    border-radius: 10px;
+     border: 2px solid black;
+     box-sizing: border-box;
+     margin: 30px 100px;
+     background-color: white;
+   }
+   
+   .six{
+     text-align: center;
+     margin: 30px 80px;
+     font-size: 20px;
+   }
+   
+   .seven{
+      text-align: center;
+     margin: 30px 200px;
+       font-size: 20px;
+   }
+   
+   .signupbutton{
+     border-radius: 10px;
+     padding: 12px 20px;
+   }
+   
+   .eight{
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 20px;
+     border: 2px solid black;
+     box-sizing: border-box;
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px; 
+   }
+   
+   .nine{
+     text-align: center;
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px; 
+   }
+   
+   li{
+   margin:30px;
+   }
+   
