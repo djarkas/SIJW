@@ -1,2 +1,0 @@
-# SIJW
-injustice project
