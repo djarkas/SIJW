@@ -1,0 +1,45 @@
+/*transportation page */
+
+.transport {
+  background-image: url("transportationBlurred.png");
+}
+.car {
+  width:40%;
+  height:auto;
+  position: fixed;
+  top: 35%;
+  right: 8%;
+}
+
+.carButton {
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.carButton:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.carForm {
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+input {
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.tInfo {
+  inline-size: 550px;
+  overflow-wrap: break-word;
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+.tHead, .tHead p{
+  margin-top: 8%;
+  margin-left: 8%;
+  font-size: 3.5em;
+}
