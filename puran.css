@@ -1,7 +1,7 @@
 /* .hero-content */
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("Homeimg/hero.jpeg");
+    url("Homeimg/Hero.jpeg");
   height: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ article{
  background-color: white;
 }
 
-.abeef{
+
   margin: 30px 90px;
   text-align: center;
   font-size: 24px;
@@ -125,4 +125,4 @@ article{
   border: 2px solid black;
   box-sizing: border-box;
 
-}
+
