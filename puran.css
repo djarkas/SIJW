@@ -115,3 +115,14 @@ article{
  box-shadow:1px 2px 10px 10px rgb(149, 212, 233);
  background-color: white;
 }
+
+.beef{
+  margin: 30px 90px;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+}
